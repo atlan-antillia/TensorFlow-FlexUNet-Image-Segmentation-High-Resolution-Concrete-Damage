@@ -170,7 +170,7 @@ Please move to ./projects/TensorFlowFlexUNet/HRCDS and run the following bat fil
 
 <b>Model parameters</b><br>
 Defined a small <b>base_filters=16</b> and a large <b>base_kernels=(11,11)</b> for the first Conv Layer of Encoder Block of 
-<a href="./src/TensorflowUNet.py">TensorflowUNet.py</a> 
+<a href="./src/TensorflowFlexUNet.py">TensorflowFlexUNet.py</a> 
 and a large num_layers (including a bridge between Encoder and Decoder Blocks).
 <pre>
 [model]
@@ -278,7 +278,7 @@ Evaluation console output:<br>
 <br><br>Image-Segmentation-HRCDS
 
 <a href="./projects/TensorFlowFlexUNet/HRCDS/evaluation.csv">evaluation.csv</a><br>
-The loss (categorical_crossentropy) to this HRCDS/test was not low, but dice_coef_multiclass  high as shown below.
+The loss (categorical_crossentropy) to this HRCDS/test was not low, and dice_coef_multiclass not high as shown below.
 <br>
 <pre>
 categorical_crossentropy,0.086
