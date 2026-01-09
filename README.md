@@ -224,8 +224,8 @@ rgb color map dict for HRCDS 1+4 classes.<br>
 <pre>
 [mask]
 mask_file_format = ".png"
-;HRCDS 1+4
-rgb_map = {(0,0,0):0, (0,255,255):1, (255,0,0):2, (153,76,0):3, (0,153,0):4}
+;      black,      red:crack,      green:exposed rebar,   cyan:corrosion,  gray:spalling
+rgb_map = {(0,0,0):0, (255, 0, 0):1, (0,255,0):2, (0,255,255):3, (128,128,128):4}
 </pre>
 <b>Epoch change inference callbacks</b><br>
 Enabled epoch_change_infer callback.<br>
